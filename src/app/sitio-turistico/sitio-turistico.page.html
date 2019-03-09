@@ -1,0 +1,116 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+       Visita Colombia
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-content padding>
+  <ion-button size="large" name='boton' (click)='sitio(true)' *ngIf='!sitios'>Consultar</ion-button>
+  <ion-button size="large" name='botonDos' (click)='sitio(false)' *ngIf='sitios'>Ocultar</ion-button>
+  <ion-card *ngIf="sitios">
+    <ion-card-header>
+      <ion-card-title>Parque nacional natural Tayrona</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El Parque Nacional Natural Tayrona, situado en el norte de Colombia, es una extensa área protegida que cubre las
+      laderas de la Sierra Nevada de Santa Marta, que colindan con la costa del Caribe. Es conocido por sus calas
+      bordeadas de palmeras, lagunas costeras, bosques tropicales y su rica biodiversidad. En el centro se hallan las
+      ruinas de Pueblito, un complejo arqueológico al que se accede a través de caminos forestales y que cuenta con
+      terrazas y estructuras construidas por la civilización tayrona.
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Catedral de Sal</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      La Catedral de Sal es un recinto construido en el interior de las minas de sal de Zipaquirá, en el departamento de
+      Cundinamarc
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Ciudad Perdida</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Ciudad Perdida, también conocido como Teyuna o Buritaca-200, ​ es un antiguo poblado indígena tayrona y sitio
+      arqueológico perteneciente a la ciudad de Santa Marta, en Colombia. Fue construido alrededor del siglo VIII de
+      nuestra era y es considerado como uno de los principales sitios arqueológicos de Colombia.​
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Islas Corales del Rosario</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Las islas del Rosario es un pequeño archipiélago formado por unas 28 islas, ​ que es parte de la zona insular de
+      Cartagena de indias, ​​​ con una superficie terrestre de 20 héctareas ubicado frente a las costas del Departamento
+      de Bolívar, a la misma latitud que la península de Barú.
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Museo del Oro</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El museo del Oro del banco de la República de Colombia es una institución abierta al público cuyo fin es la
+      adquisición, conservación y exposición de piezas de orfebrería y alfarería de culturas indígenas del periodo
+      precolombino de la actual Colombia
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Isla de San Andrés</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      DescripciónSan Andrés es una isla colombiana del mar Caribe, frente a la costa de Nicaragua. Es conocida por sus
+      arrecifes de coral y su música reggae. La animada playa de Spratt Bight cuenta con un paseo marítimo bordeado de
+      palmeras. Más allá de la costa se encuentra el parque Johnny Cay, una pequeña isla con cocoteros y playas de arena
+      blanca. El parque regional de mangle Old Point es un santuario de especies silvestres, con cangrejos, iguanas y
+      aves.
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Monserrate</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Junto a Guadalupe es uno de los
+      cerros titulares de la ciudad. Monserrate tiene una altitud de 3152 m y se ubica sobre la cordillera oriental
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Piedra del Peñol</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El peñón de Guatapé, o piedra del Peñol, es un monolito de 220 metros de altura localizado en Guatapé.​ La piedra
+      de El Peñol es una masa granítica, compuesta por cuarzo, feldespato y mica, fue escalada por primera vez en 16 de
+      julio de 1954 por un habitante de la zona, Luis Eduardo Villegas López.
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Castillo de San Felipe de Barajas</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El Castillo San Felipe de Barajas es una fortificación localizada en la ciudad de Cartagena de Indias en Colombia.
+      Está situado sobre un cerro llamado San Lázaro y fue construido en 1657 durante la época colonial española.
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Desierto de la Tatacoa</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El desierto de la Tatacoa es la segunda zona árida más extensa de Colombia después de la península de La Guajira,
+      es uno de los escenarios naturales más atractivos de Colombia, de tierra de color ocre y gris con pincelazos del
+      verde de los cactus
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Los Nevados</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El parque nacional Los Nevados está enclavado en la región productora de café de los Andes colombianos centrales.
+      Son emblemáticos sus volcanes de cimas nevadas, glaciares, lagos y bosques. Al norte encontramos el volcán activo
+      Nevado del Ruiz. Al sur está el lago Verde, con aguas de color esmeralda, el lago Otún, donde abundan las truchas,
+      y el Nevado del Tolima, con su característica cima blanca. En el parque habitan colibríes, águilas, loros y
+      cóndores, y entre su flora destacan las altas palmeras de cera y los frailejones.
+    </ion-card-content>
+    <ion-card-header>
+      <ion-card-title>Museo Botero
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El Museo Botero está situado en La Candelaria, centro histórico y cultural de Bogotá. Alberga una numerosa
+      colección de obras donadas a Colombia por el artista Fernando Botero con la intención de difundir las artes y la
+      cultura en su país natal.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
